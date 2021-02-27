@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* 共通部分*/
+
+html{
+	font-size:100%;
+}
+body{
+	font-family:"Yu Gothic Midium", "游ゴシック Medium","ヒラノギノ角ゴ Pro W3", sans-serif;
+	line-hight: 1.7;
+	color: #432;
+}
+a {
+	text-decoration: none;
+}
+img{
+	max-width:100%;
+}
+
+/* Header */
+.logo {
+	width: 210px;
+	margin-top:14px;
+}
+.page-header {
+	margin-left: 5%;
+
+}
+.main-nav {
+	display: flex;
+	justify-content: center;
+	font-size: 2.0rem;
+	margin-top: 100px;
+	list-style: none;
+}
+.main-nav li {
+	margin-left: 50px;
+}
+.main-nav a {
+	background: #0bd;
+	color: #fff;
+	border-radius: 5px;
+	padding: 18px 32px;
+	color: #432;
+}
+.main-nav a:hover {
+	color: #191970;
+}
+
+/* Home  */
+.big-bg {
+	
+}
+#home {
+
+}
+
+.home-content {
+	text-align: center;
+	margin-top: 10%;
+}
+.home-content p {
+	font-size: 1.5rem;
+	margin: 20px 0 42px;
+}
+
+/* 見出し */
+.page-title {
+	font-size: 5rem;
+	font-family:'Impact';
+	font-weight: normal;
+	color:#00008b
+}
+/* フッター */
+footer {
+	background: 
+}
+
+/* bord_data */
+
+h2.bord_data { 
+	margin: 30px 50px 20px;
+	border-bottom: 1px solid #0bd;
+	text-align:center;
+}
+.post_button {
+	border:solid 1px #ccc;
+	padding:15px 30px;
+	margin:0px 50px 20px;
+	font-family:Arial, sans-serif;
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#333;
+	background-color: #0bd;
+	cursor:pointer;
+}
+
+.border {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-top: 1px solid #6289a4;
+}
+
+.post_comment {
+	margin-left: 20px;
+}
+.left20px {
+	margin-left: 20px;
+}
+
+body {
+	background-image:url(../images/ps_neutral.png);
+	background-repeat:repeat;
+}
